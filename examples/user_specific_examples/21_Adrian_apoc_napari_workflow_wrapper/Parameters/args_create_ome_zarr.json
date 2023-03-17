@@ -1,0 +1,37 @@
+{
+    "allowed_channels": [
+        {
+            "colormap": "00FFFF",
+            "wavelength_id": "A01_C01",
+            "end": 800,
+            "label": "DAPI",
+            "start": 110
+        },
+        {
+            "colormap": "FF00FF",
+            "end": 290,
+            "wavelength_id": "A02_C02",
+            "label": "SC35",
+            "start": 110
+        },
+        {
+            "colormap": "FFFF00",
+            "end": 1600,
+            "wavelength_id": "A03_C03",
+            "label": "FISH_red",
+            "start": 110
+        },
+		{
+            "colormap": "FFFF00",
+            "end": 1600,
+            "wavelength_id": "A04_C04",
+            "label": "FISH_far_red",
+            "start": 110
+        }
+        ]
+    ,
+    "coarsening_xy": 2,
+    "num_levels": 6,
+    "image_extension": "png",
+	"image_glob_patterns": ["*F001*A02*Z0[5, 6, 7]*C02*"]
+}

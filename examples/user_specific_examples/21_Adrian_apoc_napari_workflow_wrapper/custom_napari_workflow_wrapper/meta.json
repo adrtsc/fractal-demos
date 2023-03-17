@@ -1,0 +1,4 @@
+{
+	"executor": "cpu-mid",
+	"parallelization_level": "image"
+}

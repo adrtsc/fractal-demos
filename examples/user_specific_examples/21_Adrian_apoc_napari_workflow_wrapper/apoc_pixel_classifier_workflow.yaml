@@ -1,0 +1,6 @@
+!!python/object:napari_workflows._workflow.Workflow
+_tasks:
+  Result of Semantic segmentation (apply pretrained, APOC): !!python/tuple
+  - !!python/name:napari_accelerated_pixel_and_object_classification._function.Apply_pixel_classification ''
+  - intensity_image
+  - /data/homes/atschan/fractal-demos/examples/10_apoc_pixel_classifier/PixelClassifier.cl
